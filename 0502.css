@@ -1,0 +1,59 @@
+.container{
+	border:5px solid blue;
+	color:blue;
+	font-weight: bold;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.row{
+	border:5px solid pink;
+	color:pink;
+	font-weight: bold;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.col{
+	border:3px solid darkorange;
+	color:darkorange;
+	font-weight: bold;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.gazo{
+	border:5px solid black;
+
+}
+
+.col-md-4{
+	/*background-color: tomato;*/
+}
+
+.box1,.box2,.box3,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box{
+	/*background-color: #006699;*/
+	border:3px green solid; 
+	padding: 15px;
+	color:green;
+	font-weight: bold;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/*.box4{
+	background-color: gray;
+	border:1px black solid;
+}*/
+
+/*.col-md-8,.col-md-6{
+	padding: 0;
+}*/
+/*.gazo2{
+	width: 200px;
+	height: auto;
+}*/
+
+p{
+	display: block;
+	color:block;
+	text-decoration: underline;
+}
+
+span{
+	color:red;
+}
