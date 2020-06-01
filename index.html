@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>グリッドシステム練習</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="0502.css">
+</head>
+<body>
+	<header></header>
+	<nav></nav>
+	<section class="container">
+		container
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col">
+				col-md-4
+				<div class="box1">box1 padding15px
+					<img src="yjimage-6.jpg" class="gazo img-fluid">
+					img-fluid
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col">
+				col-md-4
+				<div class="box2">box2 padding15px
+					<img src="yjimage-7.jpg" class="gazo img-fluid">
+					img-fluid
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col">
+				col-md-4
+				<div class="box3">box3 padding15px
+					<img src="yjimage-8.jpg" class="gazo img-fluid">
+					img-fluid
+				</div>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col">
+				col-md-8
+			  <div class=" container">container
+			  	<div class="row">
+				<div class="col-md-6 col-sm-12 col">
+					col-md-6
+					<div class="box5">box5 padding15px
+						<img src="yjimage-10.jpg" class="img gazo img-fluid">img-fluid
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col">
+					col-md-6
+					<div class="box6">box6 padding15px
+						<img src="yjimage-11.jpg" class="img gazo img-fluid">img-fluid
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col">
+					col-md-6
+					<div class="box8">box8 padding15px
+				    	<img src="yjimage-12.jpg" class="img gazo img-fluid">img-fluid
+				    </div>
+				</div>
+				<div class="col-md-6 col-sm-12 col">
+					col-md-6
+					<div class="box9">box9 padding15px
+						<img src="yjimage-13.jpg" class="gazo img-fluid">img-fluid
+					</div>
+				</div>
+			  </div>
+			</div>
+		     </div>
+			<div class="col-md-4 col-sm-12 col">
+				col-md-4
+				<div class="box7">box7 padding15px
+					<img src="yjimage-14.jpg" class="gazo img-fluid">img-fluid
+				</div>
+				<div class="container">
+					container
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col">
+							col-md-12
+						<div class="box10">box10 padding15px
+							<img src="yjimage-16.jpg" class="gazo gazo2 img-fluid">img-fluid
+						</div>
+					</div>
+						<div class="col-md-12 col-sm-12 col">
+							col-md-12
+							<div class="box11">box11 padding15px
+								<img src="yjimage-18.jpg" class="gazo gazo2 img-fluid">img-fluid
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col">
+				<div class="box">
+					真ん中に空白を入れたい場合：col-md-4
+					<img src="yjimage-6.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-md-4 offset-md-4 col">
+					<div class="box">
+						真ん中に空白を入れたい場合：col-md-4 <span>offset-md-4</span>
+						<img src="yjimage-7.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col">
+				<div class="box">
+					場合②：col-md-4
+					<img src="yjimage-11.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-md-4 ml-auto col">
+					<div class="box">
+						場合②：col-md-4 <span>ml-auto</span><br>ml-autoでleft側に余白
+						<img src="yjimage-12.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-auto mr-auto col">
+				<div class="box">
+					場合③：<span>col-auto mr-auto</span><br>
+					col-autoはカラムの内容に合わせて自動で横幅サイズを合わせる。<br>mr-autoでright側に余白
+					<img src="yjimage-16.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-auto col">
+					<div class="box">
+						場合③：<span>col-auto</span>
+						<img src="yjimage-16.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 offset-md-3 col">
+				<div class="box">
+					左に空白を入れたい/１つずつカラムを飛ばしたい場合：col-md-3 <span>offset-md-3</span>
+					<img src="yjimage-8.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-md-3 offset-md-3 col">
+					<div class="box">
+						左に空白を入れたい/１つずつカラムを飛ばしたい場合：col-md-3 <span>offset-md-3</span>
+						<img src="yjimage-10.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-3 ml-auto col">
+				<div class="box">
+					場合②：col-md-3 <span>ml-auto</span><br>(col-sm-6)
+					<img src="yjimage-13.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-sm-6 col-md-3 ml-auto col">
+					<div class="box">
+						場合②：col-md-3 <span>ml-auto</span><br>(col-sm-6)
+						<img src="yjimage-14.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 ml-md-auto col">
+				<div class="box">
+					場合③：col-md-3 <span>ml-md-3</span>
+					<img src="yjimage-16.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-md-3 ml-md-auto col">
+					<div class="box">
+						場合③：col-md-3 <span>ml-md-3</span>
+						<img src="yjimage-18.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 mr-auto col">
+				<div class="box">
+					右Ver.：col-md-3 <span>mr-auto</span>
+					<img src="yjimage-16.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-md-3 mr-auto col">
+					<div class="box">
+					 右Ver.：col-md-3 <span>mr-auto</span>
+						<img src="yjimage-18.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3 mr-md-auto col">
+				<div class="box">
+					右Ver②.：col-md-3 <span>mr-md-auto</span><br>（col-sm-12）
+					<img src="yjimage-16.jpg" class="gazo img-fluid">
+				</div>
+			</div>
+				<div class="col-sm-12 col-md-3 mr-md-auto col">
+					<div class="box">
+					 右Ver②.：col-md-3 <span>mr-md-auto</span><br>(col-sm-12)
+						<img src="yjimage-19.jpg" class="gazo img-fluid">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<footer></footer>
+
+
+</body>
+</html>
